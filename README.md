@@ -3,7 +3,7 @@
 [![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://python.org)
 [![CustomTkinter](https://img.shields.io/badge/CustomTkinter-5.0+-green.svg)](https://github.com/TomSchimansky/CustomTkinter)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[MadeOn](https://img.shields.io/badge/made_on-debian_12-blue.svg)
+[![MadeOn](https://img.shields.io/badge/made_on-debian_12-blue.svg)
 
 Une application de boutique RPG moderne avec interface graphique, développée en Python avec CustomTkinter. Gérez votre inventaire, combattez des ennemis, complétez des quêtes et faites fortune !
 
