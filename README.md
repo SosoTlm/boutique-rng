@@ -3,11 +3,11 @@
 [![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://python.org)
 [![CustomTkinter](https://img.shields.io/badge/CustomTkinter-5.0+-green.svg)](https://github.com/TomSchimansky/CustomTkinter)
 [![License](https://img.shields.io/badge/License-GNU_Public_License-yellow.svg)](LICENSE)
-![MadeOn](https://img.shields.io/badge/made_on-debian_12-blue.svg)
+![MadeOn](https://img.shields.io/badge/Fait_sur-Debian_12-blue.svg)
 
 Une application de boutique RPG moderne avec interface graphique, développée en Python avec CustomTkinter. Gérez votre inventaire, combattez des ennemis, complétez des quêtes et faites fortune !
 
-![Screenshot](https://via.placeholder.com/800x400/2b2b2b/ffffff?text=Boutique+Exclusive)
+![Screenshot](https://github.com/SosoTlm/boutique-rng/blob/main/screenshots/screenshotted-2025-05-26-T20-41-32.png)
 
 ## 🌟 Fonctionnalités
 
@@ -287,9 +287,9 @@ Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
 
 ## 👨‍💻 Auteur
 
-**Votre Nom**
-- GitHub: [@votre-username](https://github.com/votre-username)
-- Email: votre.email@example.com
+**Soso**
+- GitHub: [@SosoTlm](https://github.com/SosoTlm)
+- Email: t656583@gmail.com
 
 ## 🙏 Remerciements
 
