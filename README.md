@@ -8,6 +8,7 @@
 Une application de boutique RPG moderne avec interface graphique, développée en Python avec CustomTkinter. Gérez votre inventaire, combattez des ennemis, complétez des quêtes et faites fortune !
 
 ![Screenshot](https://github.com/SosoTlm/boutique-rng/blob/main/screenshots/screenshotted-2025-05-26-T20-41-32.png)
+*Capture d'écrans du jeu*
 
 ## 🌟 Fonctionnalités
 
