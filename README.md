@@ -58,13 +58,13 @@ Une application de boutique RPG moderne avec interface graphique, développée e
 
 1. **Cloner le projet**
 ```bash
-git clone https://github.com/votre-username/boutique-exclusive.git
-cd boutique-exclusive
+git clone https://github.com/SosoTlm/boutique-rng.git
+cd boutique-rng
 ```
 
 2. **Installer les dépendances**
 ```bash
-pip install customtkinter
+pip install -r requirements.txt
 ```
 
 3. **Lancer l'application**
@@ -78,9 +78,11 @@ python boutique_shop.py
 # Créer un environnement virtuel
 python -m venv venv
 
-# Activer l'environnement virtuel
+# Activer l'environnement virtuel:
+
 # Windows
 venv\Scripts\activate
+
 # Linux/Mac
 source venv/bin/activate
 
