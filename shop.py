@@ -104,7 +104,8 @@ class BoutiqueShop:
             {"nom": "Gants de Force", "prix": 110, "achats": 0, "description": "Décuple votre force physique", "rareté": "Rare"},
             {"nom": "Cape d'Invisibilité", "prix": 400, "achats": 0, "description": "Vous rend complètement invisible", "rareté": "Mythique"},
             {"nom": "Cristal de Mana", "prix": 220, "achats": 0, "description": "Source inépuisable d'énergie magique", "rareté": "Épique"},
-            {"nom": "Une Villa", "prix": 9347812, "achats": 0, "description": "Vous rend complètement invisible", "rareté": "Impossible"},
+            {"nom": "Une Villa", "prix": 9347812, "achats": 0, "description": "Vous avez enfin une maison!", "rareté": "Impossible"},
+            {"nom": "Une Voiture de SPort", "prix": 30000, "achats": 0, "description": "Est-ce une Porche? Une Koensigeg? Une Lamborghini?", "rareté": "Impossible"},
         ]
         
         # Initialiser les quêtes
