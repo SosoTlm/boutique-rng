@@ -17,7 +17,7 @@ class NotificationSystem:
         self.notifications = []
         self.notification_frame = None
         
-    def show_notification(self, message, type="info", duration=3000):
+    def show_notification(self, message, type="info", duration=5000):
         """Affiche une notification personnalisée"""
         if self.notification_frame:
             self.notification_frame.destroy()
@@ -103,7 +103,8 @@ class BoutiqueShop:
             {"nom": "Casque de Sagesse", "prix": 160, "achats": 0, "description": "Révèle les secrets cachés", "rareté": "Épique"},
             {"nom": "Gants de Force", "prix": 110, "achats": 0, "description": "Décuple votre force physique", "rareté": "Rare"},
             {"nom": "Cape d'Invisibilité", "prix": 400, "achats": 0, "description": "Vous rend complètement invisible", "rareté": "Mythique"},
-            {"nom": "Cristal de Mana", "prix": 220, "achats": 0, "description": "Source inépuisable d'énergie magique", "rareté": "Épique"}
+            {"nom": "Cristal de Mana", "prix": 220, "achats": 0, "description": "Source inépuisable d'énergie magique", "rareté": "Épique"},
+            {"nom": "Une Villa", "prix": 9347812, "achats": 0, "description": "Vous rend complètement invisible", "rareté": "Impossible"},
         ]
         
         # Initialiser les quêtes
@@ -117,7 +118,7 @@ class BoutiqueShop:
         self.setup_ui()
         
         # Message de bienvenue
-        self.notifications.show_notification("🎉 Bienvenue dans la Boutique Exclusive!", "success")
+        self.notifications.show_notification("🎉 Bienvenue dans la Boutique Exclusive !", "success")
     
     def init_quetes(self):
         self.quetes = [
@@ -228,7 +229,8 @@ class BoutiqueShop:
             "Rare": ("#3498DB", "#2980B9"),
             "Épique": ("#9B59B6", "#8E44AD"),
             "Légendaire": ("#F39C12", "#E67E22"),
-            "Mythique": ("#E74C3C", "#C0392B")
+            "Mythique": ("#E74C3C", "#C0392B"),
+            "Impossible": ("#303030", "#141414")
         }
         
         color = rarity_colors.get(article.get("rareté", "Commun"), rarity_colors["Commun"])
