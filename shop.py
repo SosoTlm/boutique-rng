@@ -72,7 +72,7 @@ class NotificationSystem:
 class BoutiqueShop:
     def __init__(self):
         self.root = ctk.CTk()
-        self.root.title("Boutique Exclusive - Version Pro")
+        self.root.title("Ecupays")
         self.root.geometry("1200x800")
         self.root.minsize(1000, 700)
         self.root.resizable(True, True)
@@ -104,6 +104,7 @@ class BoutiqueShop:
             {"nom": "Gants de Force", "prix": 110, "achats": 0, "description": "Décuple votre force physique", "rareté": "Rare"},
             {"nom": "Cape d'Invisibilité", "prix": 400, "achats": 0, "description": "Vous rend complètement invisible", "rareté": "Mythique"},
             {"nom": "Cristal de Mana", "prix": 220, "achats": 0, "description": "Source inépuisable d'énergie magique", "rareté": "Épique"},
+            {"nom": "Poudre à canon", "prix": 9999, "achats": 0, "description": "Créez des bombes", "rareté": "Mythique"},
             {"nom": "Une Villa", "prix": 9347812, "achats": 0, "description": "Vous avez enfin une maison!", "rareté": "Impossible"},
             {"nom": "Une Voiture de SPort", "prix": 30000, "achats": 0, "description": "Est-ce une Porche? Une Koensigeg? Une Lamborghini?", "rareté": "Impossible"},
         ]
